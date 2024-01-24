@@ -1,8 +1,10 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let titles_type = ["Survey", "Review", "Overview"];
+let titles_model = ["Transformer"];
+let titles_method = [];
+let titles_keyword = ["Data", "Lake", "Multi-modal", "Multimodal", "Graph"];
+let titles =  titles_model + titles_method + titles_type + titles_keyword;
+
+let authors_array = ["Raul Castro Fernandez", "Erkang Zhu", "Ye Yuan", "Yunjun Gao", "Chuan Shi", "Alex Teodor Bogatu"];
 
 let conferences = [
     // AI
@@ -17,12 +19,10 @@ let conferences = [
     "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
     // NLP
     "AACL", "ACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
-    // Arch
-    "ASPLOS", "ATC", "DATE", "EuroSys", "FAST", "HPCA", "ISCA", "MICRO", "PPoPP", "SC", "SoCC",
-    // System
-    "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
-    // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
+    // DB conference
+    "SIGMOD", "SIGKDD", "ICDE", "VLDB", "SIGIR",
+    // DB journal
+    "TODS", "TOIS", "TKDE", "DSN", "VLDBJ"
 ];
 
 let start = conferences.shift();
