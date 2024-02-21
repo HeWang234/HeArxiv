@@ -8,21 +8,31 @@ let authors_array = ["Raul Castro Fernandez", "Erkang Zhu", "Ye Yuan", "Yunjun G
 
 let conferences = [
     // AI
-    "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
+    "AI", "TPAMI", "IJCV", "JMLR", 
+    "AAAI", "IJCAI",
+    // "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
+    
     // CV
-    "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
-    // DM
-    "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR",
-    // IR
-    "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC", "SIGIR",
+    "ICCV", "CVPR",
+    // "3DV", "ACCV", "ACM MM", "BMVC", "ECCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
+    
     // ML
-    "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
+    "NeurIPS", "ICML", 
+    // "ACML", "AISTATS", "ECML", "ICLR", "ML4H", "NIPS", "UAI",
+    
     // NLP
-    "AACL", "ACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
+    "ACL", 
+    // "AACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
+    
+    // IR
+    // "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC",
+
+    // DM
+    // "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDM", "ICDT", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "WSDM", "WWW", "EDBT", "CIDR",
     // DB conference
-    "SIGMOD", "SIGKDD", "ICDE", "VLDB", "SIGIR",
+    "SIGMOD", "SIGKDD", "KDD", "ICDE", "VLDB", "SIGIR",
     // DB journal
-    "TODS", "TOIS", "TKDE", "DSN", "VLDBJ"
+    "TODS", "TOIS", "TKDE", "VLDBJ"
 ];
 
 let start = conferences.shift();
