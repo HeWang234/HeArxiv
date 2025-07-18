@@ -32,7 +32,10 @@ let conferences = [
     // DB conference
     "SIGMOD", "SIGKDD", "KDD", "ICDE", "VLDB", "SIGIR",
     // DB journal
-    "TODS", "TOIS", "TKDE", "VLDBJ"
+    "TODS", "TOIS", "TKDE", "VLDBJ",
+
+    // Economic
+    "WINE"
 ];
 
 let start = conferences.shift();
