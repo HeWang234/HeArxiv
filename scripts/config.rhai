@@ -7,32 +7,33 @@ let titles =  titles_model + titles_method + titles_type + titles_keyword;
 let authors_array = ["Raul Castro Fernandez", "Erkang Zhu", "Ye Yuan", "Yunjun Gao", "Chuan Shi", "Alex Teodor Bogatu"];
 
 let conferences = [
-    // AI
+    // ------AI
     "AI", "TPAMI", "IJCV", "JMLR", 
     "AAAI", "IJCAI",
-    // "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
+    // "AAMAS", "ACM MM", "ALT", "CEC", "FUZZ IEEE", "GECCO", "ICAPS", "ICCBR", "ICRA", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "TAAI",
     
     // CV
     "ICCV", "CVPR",
-    // "3DV", "ACCV", "ACM MM", "BMVC", "ECCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
+    // "ACM MM", "ECCV", "ICME", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
     
     // ML
-    "NeurIPS", "ICML", 
-    // "ACML", "AISTATS", "ECML", "ICLR", "ML4H", "NIPS", "UAI",
+    "NeurIPS", "ICML", "ICLR",
+    // "AISTATS", "ECML",  "ML4H", "NIPS",
     
     // NLP
     "ACL", 
-    // "AACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
+    // "AACL", "CCL", "COLT", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
     
     // IR
-    // "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC",
+    // "ICMR", "ICTIR", "ISWC",
 
-    // DM
-    // "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDM", "ICDT", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "WSDM", "WWW", "EDBT", "CIDR",
+    // ------DB
     // DB conference
     "SIGMOD", "SIGKDD", "KDD", "ICDE", "VLDB", "SIGIR",
     // DB journal
     "TODS", "TOIS", "TKDE", "VLDBJ",
+    // DM
+    // "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDM", "ICDT", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "WSDM", "WWW", "EDBT", "CIDR",
 
     // Economic
     "WINE"
