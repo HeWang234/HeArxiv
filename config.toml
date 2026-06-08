@@ -8,13 +8,14 @@ category = "cs.DB"
 title = "Databases"
 
 
+
 [[sources]]
-limit = 150
+limit = 300
 category = "cs.AI"
 title = "Artificial Intelligence"
 
 [[sources]]
-limit = 150
+limit = 300
 category = "cs.LG"
 title = "Machine Learning"
 
@@ -34,11 +35,6 @@ category = "cs.CL"
 title = "Computation and Language"
 
 
-[[sources]]
-limit = 150
-category = "cs.CE"
-title = "Computational Engineering, Finance, and Science"
-
 
 [[sources]]
 limit = 150
@@ -51,10 +47,20 @@ category = "cs.SI"
 title = "Social and Information Networks"
 
 
+
 [[sources]]
 limit = 150
 category = "cs.DC"
 title = "Distributed, Parallel, and Cluster Computing"
+
+
+
+[[sources]]
+limit = 150
+category = "cs.CE"
+title = "Computational Engineering, Finance, and Science"
+
+
 
 
 [scripts]
